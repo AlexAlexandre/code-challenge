@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/alexalexandre/.nvm/versions/node/v12.18.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js
+
+PATH: 
+  /Users/alexalexandre/.nvm/versions/node/v12.18.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/alexalexandre/Downloads/code_challenge/node_modules/.bin:/Users/alexalexandre/Library/Android/sdk/emulator:/Users/alexalexandre/Library/Android/sdk/tools:/Users/alexalexandre/Library/Android/sdk/tools/bin:/Users/alexalexandre/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.18.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: http://atf.intranet.bb.com.br/artifactory/api/npm/bb-npm-repo/jest: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141409:19)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "coding-challenge",
+    "version": "0.0.1",
+    "description": "Uptodate Coding challenge",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest src/"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "jest": "^25.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
